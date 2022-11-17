@@ -24,7 +24,7 @@ const Box = (props) => {
     return (
         <div className={`box ${result}`}>
             <h1>{props.title} Card</h1>
-            <img src={props.item && props.item.img} className='item-img'/>
+            <img src={props.item && props.item.img} className='item-img' alt="img"/>
             <h2>{result}</h2>
         </div>
     )
